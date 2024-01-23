@@ -7,7 +7,7 @@ $(document).ready(function() {
     for (let hour = 9; hour <= 17; hour++) {
       // Create timeblock elements (e.g., divs for each hour)
       const timeblock = $('<div>').addClass('time-block row');
-      const hourLabel = $('<div>').addClass('hour col-md-1').text(hour + ':00 ');
+      const hourLabel = $('<div>').addClass('hour col-md-1').text(hour + ':00');
       const eventInput = $('<textarea>').addClass('description col-md-10');
       const saveButton = $('<button>').addClass('saveBtn col-md-1').html('<i class="fas fa-save"></i>');
   
